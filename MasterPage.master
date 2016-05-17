@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Button ID="StronaGlowna" runat="server" Text="Strona główna" OnClick="StronaGlowna_Click" />
+        <asp:Button ID="Blog" runat="server" Text="Blog" OnClick="Blog_Click" />
+        <asp:Button ID="Zaloguj" runat="server" Text="Zaloguj się" OnClick="Zaloguj_Click" />
+        <asp:Button ID="Zarejestruj" runat="server" Text="Zarejestruj się" OnClick="Zarejestruj_Click" />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
